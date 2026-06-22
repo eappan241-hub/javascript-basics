@@ -39,6 +39,6 @@ Grade: A
 Result: Pass
 Remark: Excellent!
 
-## 🌐 Connect with Me
+Connect with me
 
-- LinkedIn: [Esakki Appan](https://www.linkedin.com/in/esakkiappan-c/)
+🔗 LinkedIn: Esakki Appan
