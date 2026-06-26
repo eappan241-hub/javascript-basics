@@ -1,28 +1,28 @@
 //simple calculator
-let num1=6;
-let num2=0;
+let num1 = 6;
+let num2 = 0;
 
-let operator="/"; 
+let operator = "/";
 
-if(operator==="+"){
-    console.log(num1+num2);
-    
+if (operator === "+") {
+    console.log(num1 + num2);
 }
-else if(operator==="-"){
-    console.log(num1-num2);
-
+else if (operator === "-") {
+    console.log(num1 - num2);
 }
-else if(operator==="*"){
-    console.log(num1*num2);
+else if (operator === "*") {
+    console.log(num1 * num2);
 }
-else if(operator==="/");
-  if (num2!=0){
-    console.log("num2 can be zero");    
+else if (operator === "/") {
+    if (num2 !== 0) {
+        console.log(num1 / num2);
+    } else {
+        console.log("Cannot divide by zero");
+    }
 }
- else{
-    console.log("num2 cannot be zero");
-    
-} 
+else {
+    console.log("Invalid Operator");
+}
 
 // Create a variable `marks` to store student marks (0–100).
 
