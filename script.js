@@ -50,24 +50,24 @@ else if(operator==="/");
 
 // Print the results in the console:
 // Marks, Grade, Result, Remark
-
 let mark = 90;
 let bonus = 5;
 
 mark += bonus;
 
+if (mark > 100) {
+    mark = 100;
+}
+
 let grade;
 
-if (mark >= 90 && mark <= 100) {
+if (mark >= 90) {
     grade = "A";
-}
-else if (mark >= 70 && mark <= 89) {
+} else if (mark >= 70) {
     grade = "B";
-}
-else if (mark >= 50 && mark <= 69) {
+} else if (mark >= 50) {
     grade = "C";
-}
-else {
+} else {
     grade = "F";
 }
 
@@ -79,19 +79,15 @@ switch (grade) {
     case "A":
         remark = "Excellent!";
         break;
-
     case "B":
         remark = "Good";
         break;
-
     case "C":
         remark = "Average";
         break;
-
     case "F":
         remark = "Needs Improvement";
         break;
-
     default:
         remark = "Invalid Grade";
 }
@@ -100,4 +96,3 @@ console.log("Marks:", mark);
 console.log("Grade:", grade);
 console.log("Result:", result);
 console.log("Remark:", remark);
-
